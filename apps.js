@@ -51,5 +51,14 @@ window.PORTAL_APPS = [
     category: "Éducation",
     icon: "calculator",
     accent: "#a89bff"
+  },
+  {
+    id: "enregistreur-ecran",
+    name: "Enregistreur d’écran",
+    description: "Enregistre ton écran et le son, recadre la vidéo puis télécharge le résultat en MP4 ou WebM selon le navigateur.",
+    url: "https://enregistreurecran.guillaume-compte.workers.dev/",
+    category: "Productivité",
+    icon: "record",
+    accent: "#ff777f"
   }
 ];
