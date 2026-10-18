@@ -15,6 +15,7 @@
     calculator: '<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8v3H8zM8 14h1M12 14h1M16 14h.01M8 17h1M12 17h1M16 17h.01"/>',
     qr: '<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3h-3zM20 14v2M17 20h4M20 18v3"/>',
     seats: '<rect x="5" y="4" width="14" height="5" rx="1"/><rect x="5" y="11" width="14" height="5" rx="1"/><path d="M8 9v2M16 9v2M8 16v4M16 16v4"/>',
+    record: '<rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/><circle cx="12" cy="10.5" r="3.2"/><circle cx="12" cy="10.5" r="1.1" fill="currentColor" stroke="none"/>',
     default: '<rect x="4" y="4" width="16" height="16" rx="3"/><path d="M8 9h8M8 13h5"/>'
   };
   const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (c) => ({
