@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Portail central des applications de Guillaume. Retrouvez tous les outils en un seul endroit.">
+  <title>Le Hub — Applications</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%237c6cff'/%3E%3Cpath d='M27 30h20v20H27zM53 30h20v20H53zM27 56h20v20H27zM53 56h20v20H53z' fill='white'/%3E%3C/svg%3E">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="Accueil du portail">
+      <span class="brand-mark"><span></span><span></span><span></span><span></span></span>
+      <span>LE HUB<span class="brand-dot">.</span></span>
+    </a>
+    <div class="topbar-right">
+      <span class="live-dot"></span><span class="topbar-label">ESPACE APPLICATIONS</span>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="hero">
+      <div class="eyebrow"><span class="eyebrow-line"></span> TON ESPACE NUMÉRIQUE</div>
+      <h1>Tous tes outils.<br><span>Un seul endroit.</span></h1>
+      <p class="hero-copy">Retrouve rapidement tes applications, lance un outil en un clic et garde ton espace organisé au fil de tes nouveaux projets.</p>
+      <div class="hero-meta">
+        <div class="meta-icon">✦</div>
+        <span><strong id="app-count">4</strong> applications disponibles</span>
+        <span class="meta-separator">/</span>
+        <span>Un portail, plusieurs usages</span>
+      </div>
+    </section>
+
+    <section class="toolbar" aria-label="Recherche et filtres">
+      <label class="searchbox">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 4.5 4.5"></path></svg>
+        <input id="search" type="search" placeholder="Rechercher une application…" autocomplete="off">
+        <kbd>⌘ K</kbd>
+      </label>
+      <div class="filters" id="filters" aria-label="Catégories">
+        <button class="filter active" data-category="Toutes">Toutes <span id="all-count">4</span></button>
+        <button class="filter" data-category="Éducation">Éducation</button>
+        <button class="filter" data-category="Productivité">Productivité</button>
+        <button class="filter" data-category="Création">Création</button>
+      </div>
+    </section>
+
+    <section class="apps-section">
+      <div class="section-heading">
+        <div><div class="section-kicker">TA COLLECTION</div><h2>Applications <span id="results-count">04</span></h2></div>
+        <div class="view-note"><span class="tiny-grid">▦</span> VUE EN GRILLE</div>
+      </div>
+      <div id="apps-grid" class="apps-grid" aria-live="polite"></div>
+      <div id="empty-state" class="empty-state" hidden>
+        <div class="empty-icon">⌕</div><h3>Aucun résultat</h3><p>Essaie un autre mot-clé ou une autre catégorie.</p>
+        <button id="reset-search" class="reset-button">Réinitialiser les filtres</button>
+      </div>
+    </section>
+
+    <section class="add-note">
+      <div class="add-note-icon">＋</div>
+      <div><h3>Un nouvel outil en préparation ?</h3><p>Les prochaines applications pourront être ajoutées au catalogue en modifiant simplement le fichier <code>apps.js</code>.</p></div>
+      <span class="note-chip">ÉVOLUTIF</span>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand"><span class="brand-mark mini"><span></span><span></span><span></span><span></span></span> LE HUB<span class="brand-dot">.</span></div>
+    <span>Un espace central pour tes projets numériques.</span>
+    <span class="footer-right">MIS À JOUR AU FIL DES PROJETS <span class="footer-star">✦</span></span>
+  </footer>
+  <script src="./apps.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
