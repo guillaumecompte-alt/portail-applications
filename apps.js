@@ -4,7 +4,7 @@
  * id, name, description, url, category, icon, accent.
  *
  * Catégories utilisées par les filtres : Éducation, Productivité, Création.
- * Les URL ci-dessous sont les adresses Workers fournies pour les 4 applications existantes.
+ * Les URL ci-dessous sont les adresses Workers des applications déployées.
  */
 window.PORTAL_APPS = [
   {
@@ -42,5 +42,14 @@ window.PORTAL_APPS = [
     category: "Productivité",
     icon: "seats",
     accent: "#78b7ff"
+  },
+  {
+    id: "multiflip",
+    name: "Multiflip",
+    description: "Révise les tables de 3 à 9 avec des cartes interactives : multiplications, facteur manquant et décompositions.",
+    url: "https://multiflip.guillaume-compte.workers.dev/",
+    category: "Éducation",
+    icon: "calculator",
+    accent: "#a89bff"
   }
 ];
