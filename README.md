@@ -8,6 +8,9 @@ Portail statique en HTML/CSS/JavaScript, prêt à être publié sur Cloudflare P
 - Relatifs pour tous — `https://relatifspourtous.guillaume-compte.workers.dev/`
 - Atelier QR — `https://qrcode.guillaume-compte.workers.dev/`
 - Plan de classe — `https://plan-de-classe.guillaume-compte.workers.dev/`
+- Multiflip — `https://multiflip.guillaume-compte.workers.dev/`
+- Enregistreur d’écran — `https://enregistreurecran.guillaume-compte.workers.dev/`
+- Verbes irréguliers anglais — `https://verbesirreguliers.guillaume-compte.workers.dev/`
 
 Ces adresses sont les URL `workers.dev` communiquées par le propriétaire. Elles ne sont pas des URL `pages.dev`.
 
