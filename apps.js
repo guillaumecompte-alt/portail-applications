@@ -60,5 +60,14 @@ window.PORTAL_APPS = [
     category: "Productivité",
     icon: "record",
     accent: "#ff777f"
+  },
+  {
+    id: "verbes-irreguliers-anglais",
+    name: "Verbes irréguliers anglais",
+    description: "Entraîne-toi à mémoriser les verbes irréguliers anglais avec ton application de révision interactive.",
+    url: "https://verbesirreguliers.guillaume-compte.workers.dev/",
+    category: "Éducation",
+    icon: "book",
+    accent: "#79c7ff"
   }
 ];
