@@ -93,3 +93,53 @@ h2 span { color: #737f9f; font-size: 11px; font-weight: 600; letter-spacing: .08
 @media (max-width: 950px) { .apps-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .toolbar { align-items: stretch; } .searchbox { width: 100%; } .filters { justify-content: flex-start; } }
 @media (max-width: 560px) { .topbar { height: 64px; padding: 0 20px; } .topbar-label { font-size: 8px; } .shell { width: calc(100% - 36px); } .hero { padding-top: 52px; } .hero-copy { font-size: 13px; } .hero-meta { flex-wrap: wrap; } .apps-grid { grid-template-columns: 1fr; } .app-card { min-height: 220px; } .section-heading { align-items: start; } .view-note { padding-top: 8px; font-size: 8px; } .add-note { align-items: start; padding: 15px; } .note-chip { display: none; } .footer { padding: 18px 20px; } .footer-right { margin-left: 0; width: 100%; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; } }
+
+
+/* Avatar personnel dans le hero, à côté du titre et du texte. */
+.hero-main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) clamp(150px, 21vw, 224px);
+  align-items: center;
+  gap: clamp(24px, 5vw, 64px);
+}
+.hero-content { min-width: 0; }
+.hero-avatar-wrap {
+  width: clamp(150px, 21vw, 224px);
+  aspect-ratio: 1;
+  justify-self: end;
+  position: relative;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(143, 125, 255, .16) 0%, rgba(143, 125, 255, .07) 58%, transparent 72%);
+}
+.hero-avatar {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+  filter: drop-shadow(0 14px 26px rgba(0, 0, 0, .25));
+}
+@media (max-width: 560px) {
+  .hero-main {
+    grid-template-columns: minmax(0, 1fr) clamp(88px, 28vw, 124px);
+    gap: 8px;
+  }
+  .hero-avatar-wrap {
+    width: clamp(88px, 28vw, 124px);
+  }
+  .hero h1 {
+    font-size: clamp(30px, 7.5vw, 42px);
+    line-height: 1.02;
+    margin-top: 16px;
+    margin-bottom: 14px;
+  }
+  .hero .hero-copy { font-size: 12px; line-height: 1.6; }
+  .hero .hero-meta { gap: 6px; font-size: 10px; }
+}
+@media (max-width: 360px) {
+  .hero-main { grid-template-columns: minmax(0, 1fr) 84px; gap: 6px; }
+  .hero-avatar-wrap { width: 84px; }
+  .hero h1 { font-size: 29px; }
+}
