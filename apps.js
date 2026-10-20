@@ -69,5 +69,14 @@ window.PORTAL_APPS = [
     category: "Éducation",
     icon: "book",
     accent: "#79c7ff"
+  },
+  {
+    id: "compte-est-bon",
+    name: "Le compte est bon",
+    description: "Entraîne-toi au calcul mental en trouvant les opérations qui permettent d’atteindre le nombre cible.",
+    url: "https://compteestbon.guillaume-compte.workers.dev/",
+    category: "Éducation",
+    icon: "calculator",
+    accent: "#ffbd73"
   }
 ];
