@@ -11,7 +11,7 @@ Portail statique en HTML/CSS/JavaScript, prêt à être publié sur Cloudflare P
 - Multiflip — `https://multiflip.outilotheque.fr/`
 - Enregistreur d’écran — `https://enregistreurecran.outilotheque.fr/`
 - Verbes irréguliers anglais — `https://verbes.outilotheque.fr/`
-- Le compte est bon — `https://compteestbon.guillaume-compte.workers.dev/`
+- Le compte est bon — `https://compteestbon.outilotheque.fr/`
 
 Les liens publics du catalogue utilisent maintenant le domaine `outilotheque.fr` et ses sous-domaines, associés aux Workers Cloudflare correspondants. Les adresses `workers.dev` restent disponibles comme adresses techniques d'origine.
 
