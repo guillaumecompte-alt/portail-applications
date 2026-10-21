@@ -29,7 +29,7 @@ window.PORTAL_APPS = [
     id: "qrcode",
     name: "Atelier QR",
     description: "Crée des QR codes personnalisés, ajoute un style ou un logo et prépare des planches à imprimer.",
-    url: "https://qrcode.guillaume-compte.workers.dev/",
+    url: "https://qrcode.outilotheque.fr/",
     category: "Création",
     icon: "qr",
     accent: "#a89bff"
