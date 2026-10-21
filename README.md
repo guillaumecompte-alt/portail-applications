@@ -6,7 +6,7 @@ Portail statique en HTML/CSS/JavaScript, prêt à être publié sur Cloudflare P
 
 - Cross du collège — `https://crosscollege.guillaume-compte.workers.dev/`
 - Relatifs pour tous — `https://relatifspourtous.guillaume-compte.workers.dev/`
-- Atelier QR — `https://qrcode.guillaume-compte.workers.dev/`
+- Atelier QR — `https://qrcode.outilotheque.fr/`
 - Plan de classe — `https://plan-de-classe.guillaume-compte.workers.dev/`
 - Multiflip — `https://multiflip.guillaume-compte.workers.dev/`
 - Enregistreur d’écran — `https://enregistreurecran.guillaume-compte.workers.dev/`
