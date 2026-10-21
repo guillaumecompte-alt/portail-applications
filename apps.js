@@ -11,7 +11,7 @@ window.PORTAL_APPS = [
     id: "crosscollege",
     name: "Cross du collège",
     description: "Prépare les listes d'élèves, organise les dossards et génère les documents PDF pour le cross.",
-    url: "https://crosscollege.guillaume-compte.workers.dev/",
+    url: "https://crosscollege.outilotheque.fr/",
     category: "Éducation",
     icon: "trophy",
     accent: "#f4b45f"
@@ -20,7 +20,7 @@ window.PORTAL_APPS = [
     id: "relatifs",
     name: "Relatifs pour tous",
     description: "Entraîne-toi en calcul avec des exercices d'addition, de soustraction, de multiplication et de division.",
-    url: "https://relatifspourtous.guillaume-compte.workers.dev/",
+    url: "https://relatifs.outilotheque.fr/",
     category: "Éducation",
     icon: "calculator",
     accent: "#67d9c3"
@@ -38,7 +38,7 @@ window.PORTAL_APPS = [
     id: "plan-de-classe",
     name: "Plan de classe",
     description: "Importe une liste Excel puis place les élèves dans la classe par glisser-déposer.",
-    url: "https://plan-de-classe.guillaume-compte.workers.dev/",
+    url: "https://plan-de-classe.outilotheque.fr/",
     category: "Productivité",
     icon: "seats",
     accent: "#78b7ff"
@@ -47,7 +47,7 @@ window.PORTAL_APPS = [
     id: "multiflip",
     name: "Multiflip",
     description: "Révise les tables de 3 à 9 avec des cartes interactives : multiplications, facteur manquant et décompositions.",
-    url: "https://multiflip.guillaume-compte.workers.dev/",
+    url: "https://multiflip.outilotheque.fr/",
     category: "Éducation",
     icon: "calculator",
     accent: "#a89bff"
@@ -56,7 +56,7 @@ window.PORTAL_APPS = [
     id: "enregistreur-ecran",
     name: "Enregistreur d’écran",
     description: "Enregistre ton écran et le son, recadre la vidéo puis télécharge le résultat en MP4 ou WebM selon le navigateur.",
-    url: "https://enregistreurecran.guillaume-compte.workers.dev/",
+    url: "https://enregistreurecran.outilotheque.fr/",
     category: "Productivité",
     icon: "record",
     accent: "#ff777f"
@@ -65,7 +65,7 @@ window.PORTAL_APPS = [
     id: "verbes-irreguliers-anglais",
     name: "Verbes irréguliers anglais",
     description: "Entraîne-toi à mémoriser les verbes irréguliers anglais avec ton application de révision interactive.",
-    url: "https://verbesirreguliers.guillaume-compte.workers.dev/",
+    url: "https://verbes.outilotheque.fr/",
     category: "Éducation",
     icon: "book",
     accent: "#79c7ff"
