@@ -4,16 +4,16 @@ Portail statique en HTML/CSS/JavaScript, prêt à être publié sur Cloudflare P
 
 ## Applications déjà renseignées
 
-- Cross du collège — `https://crosscollege.guillaume-compte.workers.dev/`
-- Relatifs pour tous — `https://relatifspourtous.guillaume-compte.workers.dev/`
+- Cross du collège — `https://crosscollege.outilotheque.fr/`
+- Relatifs pour tous — `https://relatifs.outilotheque.fr/`
 - Atelier QR — `https://qrcode.outilotheque.fr/`
-- Plan de classe — `https://plan-de-classe.guillaume-compte.workers.dev/`
-- Multiflip — `https://multiflip.guillaume-compte.workers.dev/`
-- Enregistreur d’écran — `https://enregistreurecran.guillaume-compte.workers.dev/`
-- Verbes irréguliers anglais — `https://verbesirreguliers.guillaume-compte.workers.dev/`
+- Plan de classe — `https://plan-de-classe.outilotheque.fr/`
+- Multiflip — `https://multiflip.outilotheque.fr/`
+- Enregistreur d’écran — `https://enregistreurecran.outilotheque.fr/`
+- Verbes irréguliers anglais — `https://verbes.outilotheque.fr/`
 - Le compte est bon — `https://compteestbon.guillaume-compte.workers.dev/`
 
-Ces adresses sont les URL `workers.dev` communiquées par le propriétaire. Elles ne sont pas des URL `pages.dev`.
+Les liens publics du catalogue utilisent maintenant le domaine `outilotheque.fr` et ses sous-domaines, associés aux Workers Cloudflare correspondants. Les adresses `workers.dev` restent disponibles comme adresses techniques d'origine.
 
 ## Ajouter une application
 
