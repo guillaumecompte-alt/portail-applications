@@ -8,6 +8,15 @@
  */
 window.PORTAL_APPS = [
   {
+    id: "frise-chronologique",
+    name: "Frise chronologique",
+    description: "Crée des frises chronologiques personnalisées avec périodes colorées, événements illustrés et temps condensés, puis exporte-les en PNG ou SVG.",
+    url: "https://frisechronologique.guillaume-compte.workers.dev/",
+    category: "Création",
+    icon: "default",
+    accent: "#e7a0a7"
+  },
+  {
     id: "crosscollege",
     name: "Cross du collège",
     description: "Prépare les listes d'élèves, organise les dossards et génère les documents PDF pour le cross.",
