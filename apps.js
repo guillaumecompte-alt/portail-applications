@@ -11,7 +11,7 @@ window.PORTAL_APPS = [
     id: "frise-chronologique",
     name: "Frise chronologique",
     description: "Crée des frises chronologiques personnalisées avec périodes colorées, événements illustrés et temps condensés, puis exporte-les en PNG ou SVG.",
-    url: "https://frisechronologique.guillaume-compte.workers.dev/",
+    url: "https://frisechronologique.outilotheque.fr/",
     category: "Création",
     icon: "default",
     accent: "#e7a0a7"
