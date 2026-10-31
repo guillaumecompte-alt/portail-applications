@@ -8,6 +8,15 @@
  */
 window.PORTAL_APPS = [
   {
+    id: "course-sans-gagnant",
+    name: "La course sans gagnant",
+    description: "Fais arriver 3 voiturettes en même temps en réglant leurs délais ou leurs positions de départ : une animation pour travailler la vitesse et la proportionnalité.",
+    url: "https://coursesansgagnant.outilotheque.fr/",
+    category: "Éducation",
+    icon: "car",
+    accent: "#8fd16a"
+  },
+  {
     id: "frise-chronologique",
     name: "Frise chronologique",
     description: "Crée des frises chronologiques personnalisées avec périodes colorées, événements illustrés et temps condensés, puis exporte-les en PNG ou SVG.",
