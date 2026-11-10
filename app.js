@@ -18,6 +18,7 @@
     record: '<rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/><circle cx="12" cy="10.5" r="3.2"/><circle cx="12" cy="10.5" r="1.1" fill="currentColor" stroke="none"/>',
     book: '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5z"/><path d="M4 5.5v16M8 7h8M8 11h8"/>',
     car: '<path d="M5 16H3v-4l2-5h11l3 5h2v4h-2"/><path d="M5 12h14M10 7v5"/><circle cx="7.5" cy="16.5" r="2"/><circle cx="16.5" cy="16.5" r="2"/><path d="M9.5 16.5h5"/>',
+    circle: '<path d="M20 12a8 8 0 1 1-2.6-5.9"/><path d="M17.4 3.6v2.6h-2.6"/><circle cx="12" cy="12" r="1.2"/>',
     default: '<rect x="4" y="4" width="16" height="16" rx="3"/><path d="M8 9h8M8 13h5"/>'
   };
   const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (c) => ({

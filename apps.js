@@ -8,6 +8,15 @@
  */
 window.PORTAL_APPS = [
   {
+    id: "cercle-parfait",
+    name: "Cercle parfait",
+    description: "Trace un cercle au doigt ou à la souris autour du point central : l'outil calcule ta précision en pourcentage et garde ton meilleur score.",
+    url: "https://cercleparfait.outilotheque.fr/",
+    category: "Éducation",
+    icon: "circle",
+    accent: "#ff9ad5"
+  },
+  {
     id: "course-sans-gagnant",
     name: "La course sans gagnant",
     description: "Fais arriver 3 voiturettes en même temps en réglant leurs délais ou leurs positions de départ : une animation pour travailler la vitesse et la proportionnalité.",
