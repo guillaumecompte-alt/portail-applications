@@ -4,7 +4,6 @@ Portail statique en HTML/CSS/JavaScript, prêt à être publié sur Cloudflare P
 
 ## Applications déjà renseignées
 
-- Audio English — `https://audioenglish.outilotheque.fr/`
 - Cercle parfait — `https://cercleparfait.outilotheque.fr/`
 - La course sans gagnant — `https://coursesansgagnant.outilotheque.fr/`
 - Cross du collège — `https://crosscollege.outilotheque.fr/`
