@@ -8,6 +8,15 @@
  */
 window.PORTAL_APPS = [
   {
+    id: "audio-english",
+    name: "Audio English",
+    description: "Audios d'entraînement à la compréhension orale pour les examens Cambridge English B1 Preliminary, B2 First et C1 Advanced.",
+    url: "https://audioenglish.outilotheque.fr/",
+    category: "Éducation",
+    icon: "headphones",
+    accent: "#7dcbdf"
+  },
+  {
     id: "cercle-parfait",
     name: "Cercle parfait",
     description: "Trace un cercle au doigt ou à la souris autour du point central : l'outil calcule ta précision en pourcentage et garde ton meilleur score.",
