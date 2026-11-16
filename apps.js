@@ -8,6 +8,15 @@
  */
 window.PORTAL_APPS = [
   {
+    id: "derouleur-de-cercle",
+    name: "Dérouleur de cercle",
+    description: "Fais rouler un cercle le long d'une règle graduée et mesure la longueur d'un tour complet : on découvre que la circonférence vaut π × diamètre. Export PDF des fiches élève et corrigé.",
+    url: "https://derouleurdecercle.outilotheque.fr/",
+    category: "Éducation",
+    icon: "wheel",
+    accent: "#ffbd73"
+  },
+  {
     id: "cercle-parfait",
     name: "Cercle parfait",
     description: "Trace un cercle au doigt ou à la souris autour du point central : l'outil calcule ta précision en pourcentage et garde ton meilleur score.",
