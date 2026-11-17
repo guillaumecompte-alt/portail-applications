@@ -4,6 +4,7 @@ Portail statique en HTML/CSS/JavaScript, prêt à être publié sur Cloudflare P
 
 ## Applications déjà renseignées
 
+- Flashcards — `https://flashcards.outilotheque.fr/`
 - Dérouleur de cercle — `https://derouleurdecercle.outilotheque.fr/`
 - Cercle parfait — `https://cercleparfait.outilotheque.fr/`
 - La course sans gagnant — `https://coursesansgagnant.outilotheque.fr/`
@@ -36,7 +37,7 @@ Ouvrir `apps.js`, puis ajouter un objet au tableau `window.PORTAL_APPS` :
 
 Catégories prises en charge par les filtres : `Éducation`, `Productivité`, `Création`. Une autre catégorie reste visible dans la grille, mais n'apparaît pas dans les filtres tant que le bouton correspondant n'est pas ajouté dans `index.html`.
 
-Icônes prévues : `trophy`, `calculator`, `qr`, `seats`, `record`, `book`, `car`, `circle`, `headphones`, `wheel`, `default`.
+Icônes prévues : `trophy`, `calculator`, `qr`, `seats`, `record`, `book`, `car`, `circle`, `headphones`, `wheel`, `cards`, `default`.
 
 ## Déployer avec Cloudflare Pages et GitHub
 

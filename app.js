@@ -21,6 +21,7 @@
     circle: '<path d="M20 12a8 8 0 1 1-2.6-5.9"/><path d="M17.4 3.6v2.6h-2.6"/><circle cx="12" cy="12" r="1.2"/>',
     headphones: '<path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4.5" height="7" rx="1.5"/><rect x="16.5" y="14" width="4.5" height="7" rx="1.5"/>',
     wheel: '<circle cx="12" cy="10" r="7"/><path d="M12 10l4.9-4.9"/><path d="M2 17h20M5 17v3M9 17v2M13 17v3M17 17v2M21 17v3"/>',
+    cards: '<rect x="7" y="3" width="13" height="16" rx="2"/><path d="M4 7v12a2 2 0 0 0 2 2h9"/><path d="M11 9h5M11 13h3"/>',
     default: '<rect x="4" y="4" width="16" height="16" rx="3"/><path d="M8 9h8M8 13h5"/>'
   };
   const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (c) => ({

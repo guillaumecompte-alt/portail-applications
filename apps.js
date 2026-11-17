@@ -8,6 +8,15 @@
  */
 window.PORTAL_APPS = [
   {
+    id: "flashcards",
+    name: "Flashcards",
+    description: "Crée des cartes question / réponse par classe et par chapitre, puis partage-les avec un lien court ou un QR code : les élèves révisent sur téléphone ou tablette et revoient leurs erreurs.",
+    url: "https://flashcards.outilotheque.fr/",
+    category: "Éducation",
+    icon: "cards",
+    accent: "#69d9c3"
+  },
+  {
     id: "derouleur-de-cercle",
     name: "Dérouleur de cercle",
     description: "Fais rouler un cercle le long d'une règle graduée et mesure la longueur d'un tour complet : on découvre que la circonférence vaut π × diamètre. Export PDF des fiches élève et corrigé.",
